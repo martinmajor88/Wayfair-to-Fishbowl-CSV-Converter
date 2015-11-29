@@ -11,3 +11,6 @@ directory. The program then clears all of the files from the WayfairIn directory
 
 You now have a .csv file in the FishbowlOut directory that can be easily imported using Fishbowl Inventory's native import
 feature!
+
+Note that this script will format the import .csv for both regular inventory items an Kit items, however due to limitation 
+in how Fishbowl Inventory handles the import of Kit Item data off of a .csv file, some additional manual work may need to be done to make sure that the Kit items populate correctly on the Fishbowl Sales Order and include their component parts. 
